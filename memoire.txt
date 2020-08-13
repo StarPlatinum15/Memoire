@@ -1,0 +1,246 @@
+\documentclass[12pt,a4paper]{report}
+
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{refstyle}
+\title{Transport Service App}
+\begin{document}
+
+
+\maketitle
+	
+\section{Introduction}
+The world has seen an unprecedented economical development due to the rapid evolution of technology.
+It has facilitated a lot of complex and otherwise time consuming tasks.Also it made it easier to earn more money in less time and with minimal effort.\\
+The field of commerce has known some big strides over time.Starting with simple trade of basic goods between people.It has since evolved to intercontinental trade, which involves massive chains of production, delivery and large scale transactions.\\
+
+Commerce helps to fuel other fields as well like:
+\begin{itemize}
+	\item Hotels
+	\item Finance
+	\item Industry
+	\item Marketing
+\end{itemize}
+Commerce is what drives the world economy forward, as people historically  have been drawn to places with good trade business searching for opportunities.
+The merchandise involved in trade was limited due to distance, size and type of merchandise traded and the absence of proper mechanisms to overcome those limitations.\\
+People used to carry everything in horse-drawn carriages and took sometimes weeks to deliver the goods to their respective destinations, but that's no longer the case as things continue to evolve.\\
+the evolution of commerce to what we know today is all thanks to the revolutions made in the transportation field.This can be seen clearly with automobiles that have really shrunk distances between remote points and can be used for multiple purposes, saving a lot of time and money in the process.\\
+the transportation field generated an estimated 5.1 trillion dollars worldwide in 2018. Travel became more affordable, the size and weight limits of the cargo transported have increased.The time needed to transport something  is dramatically lower now than before the invention of automobiles (what took weeks then takes a few hours now) and  the cost of transportation is at an all time low.
+this helped other fields develop and expand to create new jobs and job opportunities for an ever growing population.\\
+
+commercial vehicle sales continue to rise every year, in 2018 they reached 26.37 million units, but the demand for transportation is also increasing rapidly.
+Nowadays, commerce is almost completely reliant on transportation.\\
+the development seen in the transportation field resulted in big gains and progress in the trade business.This progress has made more and different types of goods accessible to more and more markets.For example this made  items like fish accessible to remote locations like desert environments.Today everything is accessible from anywhere as delivery and transport are widespread and come at a reasonable cost.\\ 
+from all the above we can surmise that the field of transportation is the beating heart of the world economy, as if it stops then the economy pretty much comes to a standstill.\\
+
+
+
+\paragraph{Problem}
+
+With new innovation come new challenges that were not present before.As the demand for transportation is at an all time high and is continuing to grow, and the number of  transport vehicles  (trucks, SUVs, vans) is also growing fast.The problem remains in the inability to find work for the drivers and transportation for the clients on a local and national level.
+As the supply and demand are there and evenly matched but the connection between them is the hardest part.\\
+for instance the client could have a driver willing to transport his cargo, but	neither of them is aware of the other, so neither of them benefits.The client then has to resort to traditional methods to find transportation (Phone number or asking around) 
+
+
+\paragraph{Solution}
+Our goal is to design a platform where drivers list their vehicles, and the clients can browse them and choose what suits their needs.The clients can also post job offers then the drivers can choose which one they do.The two sides can then contact each other through the platform to negotiate the price and other related things.
+\paragraph{Thesis Outline}
+Our thesis is organized as follows:
+\begin{itemize}
+	\item Chapter 1: Background and related works\\ in this chapter we give a general definition of transport and why it is important, we will also provide statistics to back it up as well as introducing some related works and comparing them from various aspects.
+	\item Chapter 2: Design and Analysis\\ in which we provide details about the functionalities of our platform as well as the tools used in the design and development of the project as well as diagrams to further explain how we conceived this work.
+	\item Chapter 3: Implementation\\
+	in this chapter we describe the tools and platforms used for implementing our system and why we chose them, we also explain the functionality of our system and we include screenshots to further elaborate and clarify the system's functionalities.
+	\item General Conclusion And Future Work\\
+	finally we will finish by giving a general conclusion summarizing the different steps in completing the project and the possible routes that we could take in furthering its development.
+	
+\end{itemize}
+
+\chapter{Background and related works}
+In this chapter we are going to talk about the Android platform, as well as the development tools we used,Then we are going to see some related works:\\
+\section{Background}
+\subsection{Transport}
+Transport is one of the most important systems in the world.It consists of moving people,merchandise and animals from point A to point B.This system has evolved through the ages from using animals in centuries past to using automobiles, trains, planes and boats.In this section, we will focus on land transport, specifically road transport of cargo.
+\paragraph{The importance of road transport}
+Road transport is the dominant form of transport especially at the local and national levels.It is widely available as cars, vans, trucks and bicycles are quite common.If you need fast food delivery for example then the most suitable form of transport is by bicycle.Seeing how the size and weight of the cargo in that case is small, it would be impractical to transport it via a larger vehicle.If the distance however was higher and the cargo's size and weight were larger, then a car, van or truck would be ideal.All this tells us that there is a niche for every type of vehicle to fill when it comes to transport.because the demand is here, especially with the Corona virus pandemic and the worldwide state of quarantine.The demand for land transport has never been higher.Land transport can keep the economy flowing locally and nationally.This is more true today than any time before, as the other modes of transport become more crippled by the Corona virus pandemic.
+\paragraph{The influence of technology on road transport}
+Before the internet delivery and transport services were based on physical paper contracts.Large scale transport companies had contracts with one or multiple production companies, or government agencies.For example the American company Anderson Trucking Service which is in the trucking business for 65 years.This company has diversified it's services to not only transport raw charcoal but also agriculture, mining, construction and many more.After the smartphone revolution, road transport and delivery became more mainstream and easy to get.One could say that it became more convenient than traditional transport and delivery services.Uber for example heavily disrupted the taxi cab service industry.In New York city for example, the number of taxis was not enough to satisfy the high demand for transport.There were strict regulations on taxis and their numbers were only at 13000.Uber managed to undercut taxis by offering on demand rides for cheaper.It also managed to avoid strict regulation by being just a platform,and not a transport company.Uber also labeled it's drivers as "independent contractors".It also didn't limit the number of active drivers like the taxi service industry.
+\paragraph{Some Statistics}
+Here are some statistics to further backup what we have seen in the last paragraph:
+\begin{figure}[h]
+	\includegraphics[width=1.0\textwidth]{algeria}
+	\caption{Number of passenger vehicles in Algeria over time}
+	\label{fig:algeria}
+\end{figure}
+\\As we can see in figure \ref{fig:algeria}, the number of vehicles in Algeria nearly tripled over the course of 20 years (1996-2016).\\
+
+\begin{figure}[h]
+	\includegraphics[width=1.0\textwidth]{uberstat}
+	\caption{Current and projected number of ride sharing users globally}
+	\label{fig:uberstat}
+\end{figure}
+We can see the evident rise in popularity of ridesharing apps in the second half of the last decade.The number of ridesharing users in the last 5 years has more than doubled reaching more than 500 million users this year.It is expected that this number may grow to reach 540 million users by 2021.
+
+\section{Related Works}
+in this section we will be taking a look at some related works, and in the end we will make a comparison between them and our project.\\
+
+
+\subsection{Yassir}
+Yassir is an android application focused on the road transport business.It offers transport and delivery services inside select areas of several countries.It functions as follows:
+\begin{itemize}
+\item Register by entering your first and last name,email and phone number.You then receive a confirmation SMS with a code.When you type that code, you are then registered successfully.
+\item You then have the choice to choose your departing point either manually or by using your current location.Then choose the type of vehicle you want to pick  you up.
+\item The app then calculates the fare based on the distance and type of vehicle you chose and the current traffic.Then you select the order button.
+\item A notification is then sent to the closest YASSIR driver to your rendezvous point who's vehicle has the requirements you selected prior.
+\item After the drop off you can rate the driver based on your experience.
+\item YASSIR has a separate app for the drivers that lets them recieve notifications for rides.
+\item The drivers can also communicate through the app with the custommers and vise versa.
+\end{itemize} 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{yassirlocation}
+\caption{Location and destination selection interface}
+\label{fig:yassir1}
+\end{figure}
+\begin{figure}[!h]
+	\centering
+\includegraphics[scale=0.8]{yassirservice}
+\caption{service and vehicle selection interface}
+\label{fig:yassir2}
+\end{figure}
+
+\subsection{Uber}
+Uber is an android application focused on urban road transport.Uber is active in several countries.it offers several services to it's passengers and drivers.As it has separate apps that provide different interfaces for both sides:
+\begin{itemize}
+\item After registering, passengers can choose a meeting point and request a ride to their selected destination.They can also see the nearest drivers to their location.
+\item The application then gives the rider the estimated time of arrival for the driver.
+\item The application provides a communication interface between the driver and the rider.
+\item Payment is handled in-app, meaning no cash required.
+\item After ending the trip, the rider is prompted to rate the driver and vise versa, this two way rating system helps to give a fair assessment of both sides' experience.
+\end{itemize}
+\subsection{Uber eats}
+Uber Eats is a part of uber's app suite and is specialized for food delivery.like Uber, it has separate applications for drivers and customers.It functions like this:
+\begin{itemize}
+\item After logging in, customers are greeted with a pre-selected list of restaurants.
+\item Customers can choose a restaurant from that list or search for the restaurant of their choice.
+\item After clicking on the restaurant ,the customers are then invited to choose from the restaurant's menu.Then they place their order.
+\item The driver nearest to the passenger then gets a notification for the order and can choose whether to take it or not.
+\item In case the driver accepts, they heads for the chosen restaurant and picks up the order.After that they head to the delivery point.
+\item After the delivery is complete, the client and driver are invited to give a rating to each other based on their experience.
+\end{itemize}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.3\textwidth]{uberfood2}
+	\caption{Uber eats selection menu}
+	\label{fig:uber2}
+\end{figure}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.3\textwidth]{uberfood3}
+	\caption{Uber eats map}
+	\label{fig:uberfood3}
+\end{figure}
+\subsection{Lyft}
+Lyft is an application dedicated to road transport of people.It is a platform that connects clients to drivers like Yassir and Uber.Lyft also does background checks on it's drivers as well as vehicle inspections.It also offers a rating system like the other two platforms, plus the rider can give feedback about the driver from the app.
+\section{Comparison}
+In this section we are comparing the related works sited previously from various aspects:
+\\
+
+
+
+\begin{center}
+
+\begin{table}[!h]
+
+\begin{tabular}{|c|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+&\multicolumn{4}{|c|}{Comparison Criteria}\\ \hline
+Platforms &Availability & Car Options & Rating System & Driver General Opinion\\ \hline
+Uber & Widely Available in the west (not so much in developing countries) & Low, Middle and High end options & Two Way Rating System & Average Driver Opinion and Satisfaction\\ \hline
+Lyft & Widely Available in the west (not so much in developing countries) & Low and Mid-Range Options & Two Way Rating System & High Driver Satisfaction \\ \hline
+Yassir & Widely Available in the west and in developing countries & Low, Middle and High end Options & Two Way Rating System & No Data Available \\ \hline
+
+
+
+
+
+
+\end{tabular}	
+	
+\caption{Comparison between the 3 platforms}
+\label{fig:comp}
+\end{table}
+\end{center}
+\chapter{Design And Analysis}
+In this chapter we look at the blueprint of our work in the form of conceptual diagrams.We used UML for our project, because it provides a set of diagrams that are the easiest to implement and translate to actual code in our case:
+\section{UML}
+UML or Unified Modeling Language is a standard language for specifying, visualizing, constructing, and documenting the artifacts of software systems.It was created by the Object Management Group (OMG) in 1997 and is now one of their standards.UML is used to model the structure as well as the behavior of systems, software or not.UML has a multitude of diagrams to represent various aspects of a systems constitution and behavior:
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{uml3.png}
+	\caption{UML Diagram Types}
+	\label{fig:uml2}
+\end{figure}
+\subsection{Structural Diagrams}
+As the name suggests they describe a system's structure,there are 7 structural diagrams in total:
+\begin{itemize}
+\item Class Diagram:\\
+Commonly used in OOP (Object Oriented Programming).A class consists of a name, attributes that describe it's structure and operations which give a general idea on it's behavior.The relations between classes are represented by the connecting lines between them.the combination of classes and their relations form the class diagram.
+\item Object Diagram:\\
+An object diagram is essentially an instance of a class diagram.It is used to remove the abstraction of the class diagram and test it's structure in practice.
+\item Component Diagram:\\
+Component diagram is used in the documentation of complex systems.It simplifies the documentation by breaking the system down into smaller components which helps to get a top level view of the system.It also helps to isolate system functionalities for better understanding.
+\item Composite Structure Diagram:\\
+It represents the internal structure of a class and the interactions between different class components.
+\item Deployment Diagram:\\
+This Diagram is used to visualize the deployment of software components on the hardware.
+\item Package Diagram:\\
+The package diagram is used to represent the relation between different macro-components of the system.It essentially does the same as the composite structure diagram, but at a larger and opposite scale.
+\item Profile Diagram:\\
+This type of diagram is used as an extension to UML itself so you can customize it and add new notions to it.
+\end{itemize}
+\subsection{Behavioral Diagrams}
+these diagrams describe the behavior of the system, and like the structural diagrams, there are 7 in total:
+\begin{itemize}
+\item Use Case Diagram:\\
+This diagram is used to represent the general operations and functionalities that are required of a system.These functionalities are called use cases.There are 3 main components of a use case diagram:
+\begin{itemize}
+\item Actors: represent the parties involved in interacting with the system, can be a human or a group or an organization.
+\item Use Cases: encircled verbs that represent the functional requirements of the system.
+\item Relationships: between use cases such as extension or inclusion.
+\end{itemize}
+\item Activity Diagram:\\
+This diagram is used to describe the flow of activities and operations of the system within the scope of the objects involved.
+\item Interaction Overview Diagram:\\
+It is like a specialized activity diagram that is an activity diagram of other interaction diagrams.
+\item Timing Diagram:\\
+This diagram is used to represent the interaction between different objects through time.
+\item State Machine Diagram:\\
+Used to represent the states of an object and how it is affected by internal or external factors(events).
+\item Communication Diagram:\\
+it used to be called  collaboration diagram.It focuses on the communication between the different objects of the system. 
+\item Sequence Diagram:\\
+This diagram depicts the behavior of the system in detail as well as the state of the objects and actors involved.From this diagram we can see the use cases in motion.
+\end{itemize}
+We used 3 diagrams in our thesis, one Structural which is the class diagram, and 2 behavioral, which are the use case and sequence diagrams.
+
+
+\subsection{Class Diagram}
+this here is our class diagram:
+\begin{figure}[!h]
+	
+	\includegraphics[width=0.9\textwidth]{ClassDiagram1.jpg}
+	\caption{Class Diagram}
+	\label{fig:umlclass}
+\end{figure}
+\subsection{Use Case Diagram}
+This here is our use case diagram:
+\begin{figure}[!h]
+	
+	\includegraphics[width=1.3\textwidth]{UseCaseDiagram1.jpg}
+	\caption{Use Case Diagram}
+	\label{fig:umlusecase}
+\end{figure}
+\end{document}
